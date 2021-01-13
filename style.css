@@ -1,0 +1,50 @@
+.container{
+  width:970px;
+}
+
+header{
+  background-image: url("img/Fond.png");
+  background-size: 100%;
+  height: 220px;
+}
+
+header h1{
+  text-align: center;
+  padding-top: 50px;
+}
+
+ul{list-style-type: none;}  /*Enlever les points*/
+li{float: left;margin-right: 20px;}  /*Aligné*/
+li a{text-decoration: none;color: #ced99f;}  /*enlever la couleur des liens*/
+
+#loupe{
+  float: right;
+  width: 26px;
+  height: 29px;
+}
+
+input{
+  float: right;
+}
+
+#navbar{
+  padding-top: 30px;
+}
+
+.item p, .item h1{
+  width: 200px;
+}
+
+#rs{
+  width: 200px;
+  margin: auto;
+}
+
+#insta{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer p{
+  text-align: center;
+}
