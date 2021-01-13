@@ -11,6 +11,10 @@ header{
 header h1{
   text-align: center;
   padding-top: 50px;
+  font-family: Fraunces;
+  font-weight: bold;
+  font-size: 72px;
+  color: white;
 }
 
 ul{list-style-type: none;}  /*Enlever les points*/
@@ -47,4 +51,33 @@ input{
 
 footer p{
   text-align: center;
+}
+
+/*FONTS*/
+
+body{
+  font-family: Montserrat;
+}
+
+#accueil{
+  color: black;
+}
+
+#titre1{
+  color: #2a4214;
+  font-family: Fraunces;
+  font-size: 18px;
+}
+
+#titreA{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#paragraphe{
+  font-size: 12px;
+}
+
+@media (max-width: 576px){
+  
 }
